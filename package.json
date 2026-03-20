@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node generate-htaccess.js",
     "preview": "vite preview",
     "server": "json-server --watch server/db.json --port 3001",
     "start": "concurrently \"npm run dev\" \"npm run server\""
