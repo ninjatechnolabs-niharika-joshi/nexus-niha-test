@@ -18,6 +18,7 @@ import FAQ from './pages/FAQ'
 import Booking from './pages/Booking'
 import Dashboard from './pages/Dashboard'
 import Accessibility from './pages/Accessibility'
+import TravelDocs from './pages/TravelDocs'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -41,6 +42,7 @@ export default function App() {
               <Route path="booking" element={<Booking />} />
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="accessibility" element={<Accessibility />} />
+              <Route path="documents" element={<TravelDocs />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

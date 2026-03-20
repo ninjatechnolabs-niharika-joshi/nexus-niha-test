@@ -19,6 +19,7 @@ const companyLinks = [
   { to: '/booking', label: 'Book a Trip' },
   { to: '/dashboard', label: 'My Dashboard' },
   { to: '/accessibility', label: 'Accessibility' },
+  { to: '/documents', label: 'Travel Documents' },
 ]
 
 export default function Footer() {
