@@ -421,6 +421,233 @@ If you must fly, offset your carbon emissions through reputable programs. Gold S
     comments: [
       { id: 1, author: 'GreenTraveler', text: 'Such important tips. I\'ve been using a reusable bottle for years!', date: '2024-03-20' }
     ]
+  },
+  {
+    id: 9,
+    slug: 'maldives-ultimate-guide',
+    title: 'The Maldives: Your Ultimate Island Paradise Guide',
+    excerpt: 'Crystal-clear lagoons, overwater bungalows, and the most vivid marine life on Earth. Here\'s everything you need to plan your dream Maldives escape.',
+    content: `The Maldives is unlike anywhere else on Earth. This tiny island nation in the Indian Ocean — made up of 26 atolls and over 1,000 coral islands — offers an almost surreal combination of turquoise water, white sand, and extraordinary marine biodiversity.
+
+**Choosing the Right Atoll**
+
+The Maldives is divided into atolls, and your choice significantly affects your experience. North Malé Atoll is closest to the international airport and offers the widest variety of resorts. South Malé Atoll is great for diving. Baa Atoll is a UNESCO Biosphere Reserve famous for whale sharks and manta rays.
+
+**Overwater vs. Beach Villas**
+
+Overwater bungalows are the iconic Maldives experience — direct ladder access to the lagoon, glass floor panels, and stunning sunset views. However, beach villas offer more privacy, larger gardens, and are usually better for families. Many resorts offer both.
+
+**Best Time to Visit**
+
+- November to April: Dry season, calmer seas, excellent visibility for diving and snorkelling
+- May to October: Wet season, lower prices, lush greenery, occasional rain showers
+
+**Marine Life**
+
+The Maldives hosts over 2,000 species of fish, 200 species of coral, and regular sightings of whale sharks, manta rays, sea turtles, and dolphins. Snorkelling directly from your villa is often world-class.
+
+**Getting There**
+
+Most visitors fly into Velana International Airport in Malé, then transfer to their resort by speedboat (20–60 minutes) or seaplane (15–40 minutes). Seaplane transfers are spectacular but only operate in daylight.
+
+**Budget Tips**
+
+The Maldives has a reputation for being expensive, but guesthouses on local islands like Maafushi or Thulusdhoo offer a fraction of resort prices while still giving access to the same stunning water.`,
+    author: 'Amira Hassan',
+    authorBio: 'Amira Hassan is a luxury travel writer and dive instructor who has explored every major atoll in the Maldives over the past decade.',
+    authorAvatar: 'https://picsum.photos/seed/amira/100/100',
+    date: '2024-04-02',
+    category: 'Destination Guides',
+    image: 'https://picsum.photos/seed/blogmaldives/800/500',
+    readTime: '7 min read',
+    tags: ['Maldives', 'Island', 'Luxury Travel', 'Diving', 'Asia'],
+    featured: false,
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+    videoPoster: 'https://picsum.photos/seed/blogmaldives/800/500',
+    comments: [
+      { id: 1, author: 'DivingEnthusiast', text: 'Baa Atoll was incredible — saw 40+ manta rays in a single dive!', date: '2024-04-08' },
+      { id: 2, author: 'HoneymoonCouple', text: 'Staying at an overwater bungalow was a dream come true.', date: '2024-04-10' }
+    ]
+  },
+  {
+    id: 10,
+    slug: 'morocco-desert-adventure',
+    title: 'Morocco\'s Sahara Desert: A Camel Trek & Stargazing Adventure',
+    excerpt: 'From the winding medinas of Marrakech to sleeping under a billion stars in the Sahara — Morocco is a feast for every sense.',
+    content: `Morocco is one of travel's great contrasts — ancient medinas buzzing with colour and noise, then, just hours away, the silent, golden immensity of the Sahara Desert. Few journeys are as transformative as the one between them.
+
+**Marrakech: The Gateway**
+
+Start in Marrakech. Spend at least two days getting lost in the medina, exploring the souks, visiting the Bahia Palace, and watching the sun set over Djemaa el-Fna square as snake charmers and storytellers hold court.
+
+Don't miss:
+- Majorelle Garden (Yves Saint Laurent's legendary blue garden)
+- The 14th-century Ben Youssef Madrasa
+- A traditional hammam experience
+- Dining on the rooftops above the main square
+
+**The Road to the Sahara**
+
+The drive from Marrakech to Merzouga (gateway to the Erg Chebbi dunes) takes around 8–9 hours but is an attraction in itself. Stop at:
+- The dramatic Tizi n'Tichka mountain pass in the Atlas Mountains
+- The ancient kasbah of Aït Benhaddou (a UNESCO site used in Game of Thrones)
+- The Valley of Roses near El Kelaa des M'Gouna
+
+**The Camel Trek**
+
+From Merzouga, board a camel at sunset for the 1–2 hour ride into the dunes. Your guide will set up a Berber camp where you'll sleep under the stars with nothing but silence and the occasional camel groan for company.
+
+**Stargazing**
+
+With no light pollution for hundreds of kilometres, the Sahara offers some of the world's best stargazing. On a clear night, the Milky Way is visible to the naked eye. Bring a camera with manual mode and a tripod.
+
+**Practical Tips**
+
+- October to April is the best time (desert can be brutally hot in summer)
+- Dress in layers — desert nights are cold even in spring
+- Bargain respectfully in the souks — it\'s expected and part of the experience`,
+    author: 'Khalil Benali',
+    authorBio: 'Khalil Benali is a Moroccan-born guide and travel writer who leads cultural expeditions across North Africa and the Middle East.',
+    authorAvatar: 'https://picsum.photos/seed/khalil/100/100',
+    date: '2024-04-15',
+    category: 'Adventure & Safari',
+    image: 'https://picsum.photos/seed/blogmorocco/800/500',
+    readTime: '9 min read',
+    tags: ['Morocco', 'Sahara', 'Desert', 'Africa', 'Adventure'],
+    featured: false,
+    comments: [
+      { id: 1, author: 'SaharaWalker', text: 'The silence of the desert at night is something I\'ll never forget.', date: '2024-04-20' }
+    ]
+  },
+  {
+    id: 11,
+    slug: 'new-zealand-road-trip',
+    title: 'The Ultimate New Zealand South Island Road Trip',
+    excerpt: 'Fjords, glaciers, Lord of the Rings landscapes, and bungee jumps. New Zealand\'s South Island is the greatest road trip destination on the planet.',
+    content: `New Zealand's South Island packs more dramatic scenery into its 150,000 square kilometres than almost anywhere on Earth. Rent a campervan, hit the road, and prepare to stop every ten minutes because the views are simply too good to drive past.
+
+**The Route**
+
+The classic South Island loop runs roughly: Christchurch → Kaikōura → Nelson → Abel Tasman → Westland → Fox & Franz Josef Glaciers → Wanaka → Queenstown → Milford Sound → Dunedin → back to Christchurch. Allow at least 14 days, ideally 21.
+
+**Highlights**
+
+**Abel Tasman National Park** — New Zealand's smallest national park but arguably its most beautiful. Golden beaches, turquoise bays, and a coastal walk that takes 3–5 days to complete.
+
+**Franz Josef Glacier** — One of the few glaciers in the world that descends into a temperate rainforest. Heli-hike tours land you right on the ice.
+
+**Wanaka** — A quieter, more relaxed alternative to Queenstown. The lake views are extraordinary and the hiking in Mount Aspiring National Park is world class.
+
+**Queenstown** — The adventure capital of the world. Bungee jumping, skydiving, jet boating, white-water rafting — take your pick.
+
+**Milford Sound** — Rudyard Kipling called it the eighth wonder of the world. The fjord is dominated by Mitre Peak and frequently shrouded in dramatic mist. Kayaking at dawn is unforgettable.
+
+**Campervan Tips**
+
+- Book your campervan months in advance for summer (December–February)
+- Freedom camping is allowed in many areas but check local rules
+- The roads are narrow and winding — allow twice as long as Google Maps suggests
+- Fill up with petrol whenever you see a station in remote areas`,
+    author: 'Liam McAllister',
+    authorBio: 'Liam McAllister is an adventure travel writer and photographer who has completed the South Island road trip seven times and counting.',
+    authorAvatar: 'https://picsum.photos/seed/liam/100/100',
+    date: '2024-05-01',
+    category: 'Adventure & Safari',
+    image: 'https://picsum.photos/seed/blognewzealand/800/500',
+    readTime: '11 min read',
+    tags: ['New Zealand', 'Road Trip', 'Adventure', 'Queenstown', 'Pacific'],
+    featured: false,
+    comments: [
+      { id: 1, author: 'KiwiTraveller', text: 'Milford Sound blew my mind. Nothing prepares you for how massive it is.', date: '2024-05-07' },
+      { id: 2, author: 'CampervánLife', text: 'Best three weeks of my life. The freedom camping spots are insane!', date: '2024-05-09' }
+    ]
+  },
+  {
+    id: 12,
+    slug: 'food-travel-italy',
+    title: 'Eating Your Way Through Italy: A Foodie\'s Region-by-Region Guide',
+    excerpt: 'Italy\'s greatest masterpieces aren\'t in its museums — they\'re on the plate. A passionate guide to eating like a local from north to south.',
+    content: `Italy is the only country where a disagreement about the correct pasta shape for a specific sauce can turn into a heated family argument lasting generations. This is not a flaw. This is a feature. Food here is identity, love, and art all at once.
+
+**The North: Butter, Risotto & Truffles**
+
+Northern Italian cuisine is richer and more refined than the tomato-heavy south. In Piedmont, white truffles are shaved over everything from pasta to scrambled eggs. Milan gave the world risotto alla Milanese (saffron-scented, buttery perfection). Bologna — the culinary capital of Italy — is home to true ragù alla Bolognese (never, ever served on spaghetti locally — it's tagliatelle or nothing).
+
+Must-try: Truffle risotto in Alba, mortadella in Bologna, gnocchi in Venice.
+
+**Tuscany: The Gold Standard**
+
+Tuscany's cuisine is deceptively simple — excellent olive oil, crusty bread, aged pecorino, Chianina beef, and the local Chianti wine. The bistecca alla Fiorentina (a T-bone the size of a small child, cooked rare) in Florence is a pilgrimage.
+
+Must-try: Bistecca in Florence, pici cacio e pepe in Siena, ribollita soup anywhere.
+
+**Naples & The South: Pizza, Pasta & Passion**
+
+Neapolitan pizza is a UNESCO-protected art form, and after one bite you'll understand why. The dough is chewy and charred, the San Marzano tomatoes are sweet, and the fior di latte mozzarella melts perfectly. Go to L'Antica Pizzeria da Michele or Sorbillo — queue early.
+
+Further south in Sicily, the food has Arab, Greek, and Spanish influences. Arancini (fried rice balls), pasta alla Norma (with aubergine), and granita con brioche for breakfast.
+
+**Practical Tips**
+
+- Lunch (pranzo) is the main meal — many restaurants offer a fantastic set lunch menu
+- Never order a cappuccino after 11am (locals will judge you silently but firmly)
+- Markets are better than supermarkets for ingredients
+- Ask for the "menu del giorno" for the best value`,
+    author: 'Giulia Ferretti',
+    authorBio: 'Giulia Ferretti is a Rome-based food journalist and culinary tour guide who has eaten in over 800 Italian restaurants across all 20 regions.',
+    authorAvatar: 'https://picsum.photos/seed/giulia/100/100',
+    date: '2024-05-10',
+    category: 'Destination Guides',
+    image: 'https://picsum.photos/seed/blogitaly/800/500',
+    readTime: '10 min read',
+    tags: ['Italy', 'Food Travel', 'Europe', 'Culture', 'Culinary'],
+    featured: false,
+    comments: [
+      { id: 1, author: 'PastaLover', text: 'The bistecca in Florence genuinely changed my life. No steak has tasted the same since.', date: '2024-05-14' },
+      { id: 2, author: 'PizzaPilgrim', text: 'Da Michele\'s marinara is worth the 2-hour queue. End of.', date: '2024-05-16' }
+    ]
+  },
+  {
+    id: 13,
+    slug: 'vietnam-backpacker-guide',
+    title: 'Vietnam End to End: The Backpacker\'s Complete Guide',
+    excerpt: 'From the misty mountains of Sapa to the ancient lantern-lit streets of Hội An and the wild islands of the south — Vietnam rewards the curious traveller endlessly.',
+    content: `Vietnam stretches over 1,600 kilometres from north to south, and travelling its length is one of the great travel experiences in Asia. The country has everything: history, food, beaches, mountains, cities, and some of the warmest people you'll meet anywhere.
+
+**Hanoi — The North**
+
+Start in Hanoi, Vietnam's chaotic, charming capital. Spend a morning cycling around Hoan Kiem Lake, an afternoon in the Old Quarter (36 streets, each historically dedicated to a specific trade), and an evening eating bun cha (grilled pork noodles) at a plastic-stool street stall. It was Anthony Bourdain's favourite meal in Vietnam. He was right.
+
+Day trip to Ha Long Bay — the UNESCO World Heritage site of 1,600 limestone islands rising from emerald water. Take a 2-night cruise rather than a day trip for the full experience.
+
+**Hội An — The Centre**
+
+Hội An is arguably the most beautiful town in Southeast Asia. The ancient trading port is frozen in time — lanterns glow at night, tailors make clothes in 24 hours, and the food is extraordinary. Don't miss: cao lầu noodles, white rose dumplings, and bánh mì from Bánh Mì Phượng.
+
+**Hồ Chí Minh City (Saigon) — The South**
+
+The south is energy and hustle. Visit the War Remnants Museum (emotional and important), eat pho for breakfast, and take a day trip to the Mekong Delta.
+
+**Getting Around**
+
+The open bus ticket (Sinh Tourist or similar) connects the whole country cheaply. Trains are comfortable and scenic. Renting a motorbike is for confident riders only — traffic is intense.
+
+**Budget**
+
+Vietnam is excellent value. Street food meals cost $1–2, guesthouses $10–20/night, and beers are under $1 at happy hour. A comfortable budget is $35–50/day.`,
+    author: 'Trung Nguyen',
+    authorBio: 'Trung Nguyen is a Vietnamese-Australian travel writer who has guided hundreds of backpackers through his home country over 15 years.',
+    authorAvatar: 'https://picsum.photos/seed/trung/100/100',
+    date: '2024-05-22',
+    category: 'Budget Travel',
+    image: 'https://picsum.photos/seed/blogvietnam/800/500',
+    readTime: '12 min read',
+    tags: ['Vietnam', 'Backpacking', 'Southeast Asia', 'Budget Travel', 'Asia'],
+    featured: false,
+    comments: [
+      { id: 1, author: 'SaigonStreetFoodie', text: 'The bun cha in Hanoi is absolutely worth the hype. 10/10 every time.', date: '2024-05-28' },
+      { id: 2, author: 'HoiAnFan', text: 'Hội An at night with all the lanterns lit is pure magic.', date: '2024-05-30' }
+    ]
   }
 ]
 

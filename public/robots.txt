@@ -1,0 +1,7 @@
+# WanderLust Travel - robots.txt
+# This site is publicly accessible. All bots and crawlers are welcome.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ninja-nexus-test-frontend.projectanddemoserver.com/sitemap.xml
