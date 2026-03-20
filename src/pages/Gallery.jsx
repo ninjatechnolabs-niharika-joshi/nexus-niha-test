@@ -16,21 +16,21 @@ const allImages = destinations.flatMap(d => [
 // Replace poster with a thumbnail image URL or local path like '/images/bali-thumb.jpg'
 const galleryVideos = [
   {
-    src: 'https://www.w3schools.com/html/mov_baa.mp4',
+    src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     poster: 'https://picsum.photos/seed/gv-bali/600/380',
     title: 'Bali Temples & Rice Terraces',
     destination: 'Bali, Indonesia',
     category: 'Beach & Island',
   },
   {
-    src: 'https://www.w3schools.com/html/movie.mp4',
+    src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
     poster: 'https://picsum.photos/seed/gv-paris/600/380',
     title: 'Paris City Tour',
     destination: 'Paris, France',
     category: 'City & Culture',
   },
   {
-    src: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm',
+    src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
     poster: 'https://picsum.photos/seed/gv-safari/600/380',
     title: 'African Safari Adventure',
     destination: 'Kenya, Africa',
@@ -146,7 +146,7 @@ export default function Gallery() {
                   preload="none"
                   aria-label={`${vid.title} - ${vid.destination}`}
                 >
-                  <source src={vid.src} type={vid.src.endsWith('.webm') ? 'video/webm' : 'video/mp4'} />
+                  <source src={vid.src} type="video/mp4" />
                 </video>
                 <div className="gallery-video-info">
                   <div className="gallery-video-title">{vid.title}</div>

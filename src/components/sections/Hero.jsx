@@ -17,8 +17,7 @@ export default function Hero() {
       {/* Video Background */}
       <div className="hero-video-bg" aria-hidden="true">
         <video autoPlay muted loop playsInline>
-          <source src="https://www.w3schools.com/html/mov_baa.mp4" type="video/mp4" />
-          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" />
+          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" type="video/mp4" />
         </video>
       </div>
 

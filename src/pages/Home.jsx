@@ -174,9 +174,8 @@ export default function Home() {
                 poster="https://picsum.photos/seed/video-poster/900/500"
                 aria-label="Travel experience showcase video"
               >
-                <source src="https://www.w3schools.com/html/mov_baa.mp4" type="video/mp4" />
-                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" />
-                Your browser does not support the video tag. <a href="https://www.w3schools.com/html/mov_baa.mp4">Download the video</a>.
+                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
               </video>
             </div>
           </AnimatedSection>

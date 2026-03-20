@@ -24,7 +24,7 @@ const destinations = [
     highlights: ['Rice Terraces', 'Temple Tours', 'Surf Lessons', 'Cooking Classes'],
     climate: 'Tropical',
     bestTime: 'April - October',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const destinations = [
     highlights: ['Eiffel Tower', 'Louvre Museum', 'Seine River Cruise', 'Versailles'],
     climate: 'Temperate',
     bestTime: 'April - June, September - October',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ const destinations = [
     highlights: ['Caldera Views', 'Sunset at Oia', 'Wine Tasting', 'Volcano Hike'],
     climate: 'Mediterranean',
     bestTime: 'May - October',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 4,
@@ -105,7 +105,7 @@ const destinations = [
     highlights: ['Big Five Game Drives', 'Great Migration', 'Maasai Village', 'Hot Air Balloon'],
     climate: 'Savanna',
     bestTime: 'July - October',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 5,
@@ -132,7 +132,7 @@ const destinations = [
     highlights: ['Inca Trail Trek', 'Sun Gate', 'Huayna Picchu', 'Cusco City Tour'],
     climate: 'Mountain Subtropical',
     bestTime: 'May - September',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 6,
@@ -159,7 +159,7 @@ const destinations = [
     highlights: ['Shibuya Crossing', 'Mount Fuji Day Trip', 'Tsukiji Market', 'Cherry Blossoms'],
     climate: 'Humid Subtropical',
     bestTime: 'March - May, September - November',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 7,
@@ -186,7 +186,7 @@ const destinations = [
     highlights: ['Times Square', 'Central Park', 'Statue of Liberty', 'Broadway Show'],
     climate: 'Humid Continental',
     bestTime: 'April - June, September - November',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 8,
@@ -213,7 +213,7 @@ const destinations = [
     highlights: ['Overwater Bungalows', 'Snorkeling & Diving', 'Sunset Cruises', 'Spa Treatments'],
     climate: 'Tropical',
     bestTime: 'November - April',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 9,
@@ -240,7 +240,7 @@ const destinations = [
     highlights: ['Northern Lights', 'Blue Lagoon', 'Golden Circle', 'Glacier Hike'],
     climate: 'Subarctic',
     bestTime: 'June - August (Midnight Sun), September - March (Northern Lights)',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 10,
@@ -267,7 +267,7 @@ const destinations = [
     highlights: ['Positano Village', 'Limoncello Tasting', 'Boat Tour', 'Ravello Concert'],
     climate: 'Mediterranean',
     bestTime: 'May - October',
-    video: 'https://www.w3schools.com/html/mov_baa.mp4'
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   }
 ]
 

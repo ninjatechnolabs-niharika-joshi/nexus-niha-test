@@ -100,7 +100,7 @@ export default function BlogDetail() {
                     poster={blog.videoPoster}
                     aria-label={`Video guide for: ${blog.title}`}
                   >
-                    <source src={blog.video} type={blog.video.endsWith('.webm') ? 'video/webm' : 'video/mp4'} />
+                    <source src={blog.video} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>

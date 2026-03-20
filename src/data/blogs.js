@@ -41,7 +41,7 @@ For the best balance of good weather and fewer crowds, aim for May, June, or Sep
     readTime: '5 min read',
     tags: ['Bali', 'Indonesia', 'Travel Tips', 'Asia'],
     featured: true,
-    video: 'https://www.w3schools.com/html/mov_baa.mp4',
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     videoPoster: 'https://picsum.photos/seed/blogbali/800/500',
     comments: [
       { id: 1, author: 'TravelFan2024', text: 'Great guide! I visited in September and it was perfect.', date: '2024-02-20' },
@@ -203,7 +203,7 @@ Japan is extraordinarily safe. Violent crime is rare, and the Japanese concept o
     readTime: '10 min read',
     tags: ['Japan', 'Tokyo', 'Solo Travel', 'Asia'],
     featured: false,
-    video: 'https://www.w3schools.com/html/movie.mp4',
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
     videoPoster: 'https://picsum.photos/seed/blogjapan/800/500',
     comments: [
       { id: 1, author: 'FirstTimeInJapan', text: 'This guide was so helpful! Just got back from Tokyo and it was incredible.', date: '2024-03-01' }
@@ -359,7 +359,7 @@ Shoot RAW and don't fear noise reduction. Lightroom's Denoise tool works wonders
     readTime: '8 min read',
     tags: ['Iceland', 'Northern Lights', 'Photography', 'Europe'],
     featured: false,
-    video: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm',
+    video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
     videoPoster: 'https://picsum.photos/seed/blogiceland/800/500',
     comments: []
   },
