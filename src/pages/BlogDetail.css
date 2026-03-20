@@ -70,6 +70,29 @@
   margin-bottom: 0.375rem;
 }
 
+/* Video */
+.blog-video-section {
+  margin-top: 2.5rem;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+}
+
+.blog-video-section h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 1.25rem 1.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.blog-video-section video {
+  width: 100%;
+  display: block;
+  max-height: 420px;
+  background: #000;
+}
+
 .blog-tags {
   display: flex;
   flex-wrap: wrap;

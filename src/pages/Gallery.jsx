@@ -11,6 +11,34 @@ const allImages = destinations.flatMap(d => [
   ...d.gallery.map(img => ({ src: img, destination: d.name, category: d.category, continent: d.continent })),
 ])
 
+// ─── ADD YOUR OWN VIDEOS HERE ──────────────────────────────────────────────
+// Replace src with a local file path like '/videos/bali.mp4' or a URL
+// Replace poster with a thumbnail image URL or local path like '/images/bali-thumb.jpg'
+const galleryVideos = [
+  {
+    src: 'https://www.w3schools.com/html/mov_baa.mp4',
+    poster: 'https://picsum.photos/seed/gv-bali/600/380',
+    title: 'Bali Temples & Rice Terraces',
+    destination: 'Bali, Indonesia',
+    category: 'Beach & Island',
+  },
+  {
+    src: 'https://www.w3schools.com/html/movie.mp4',
+    poster: 'https://picsum.photos/seed/gv-paris/600/380',
+    title: 'Paris City Tour',
+    destination: 'Paris, France',
+    category: 'City & Culture',
+  },
+  {
+    src: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm',
+    poster: 'https://picsum.photos/seed/gv-safari/600/380',
+    title: 'African Safari Adventure',
+    destination: 'Kenya, Africa',
+    category: 'Adventure & Safari',
+  },
+]
+// ───────────────────────────────────────────────────────────────────────────
+
 const categories = ['All', 'Beach & Island', 'City & Culture', 'Adventure & Safari', 'Heritage & History']
 
 export default function Gallery() {
@@ -99,6 +127,35 @@ export default function Gallery() {
             </Button>
           </div>
         )}
+
+        {/* Videos Section */}
+        <AnimatedSection variant="fadeUp">
+          <div className="gallery-videos-heading">
+            <h2>🎬 Travel Videos</h2>
+            <p>Cinematic glimpses of our most stunning destinations</p>
+          </div>
+        </AnimatedSection>
+
+        <div className="gallery-videos-grid">
+          {galleryVideos.map((vid, i) => (
+            <AnimatedSection key={i} variant="fadeUp" delay={i * 0.1}>
+              <div className="gallery-video-card">
+                <video
+                  controls
+                  poster={vid.poster}
+                  preload="none"
+                  aria-label={`${vid.title} - ${vid.destination}`}
+                >
+                  <source src={vid.src} type={vid.src.endsWith('.webm') ? 'video/webm' : 'video/mp4'} />
+                </video>
+                <div className="gallery-video-info">
+                  <div className="gallery-video-title">{vid.title}</div>
+                  <div className="gallery-video-dest">📍 {vid.destination}</div>
+                </div>
+              </div>
+            </AnimatedSection>
+          ))}
+        </div>
       </div>
 
       <Lightbox

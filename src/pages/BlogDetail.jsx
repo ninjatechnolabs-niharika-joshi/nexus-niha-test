@@ -91,6 +91,21 @@ export default function BlogDetail() {
                 {contentBlocks}
               </div>
 
+              {/* Video */}
+              {blog.video && (
+                <div className="blog-video-section">
+                  <h3>📹 Video Guide</h3>
+                  <video
+                    controls
+                    poster={blog.videoPoster}
+                    aria-label={`Video guide for: ${blog.title}`}
+                  >
+                    <source src={blog.video} type={blog.video.endsWith('.webm') ? 'video/webm' : 'video/mp4'} />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              )}
+
               {/* Tags */}
               <div className="blog-tags" aria-label="Blog tags">
                 {blog.tags.map(tag => (
